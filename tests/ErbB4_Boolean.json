@@ -1,0 +1,15 @@
+{
+    "network": {
+	"pSTATn_pSTATn" : {"base": 0, "input_nodes" : [["PPN", -1]], "initial_state" : 1},
+	"mRNA_nuc" : {"base": 0, "input_nodes" : [["pSTATn_pSTATn", 1]], "initial_state" : 0},
+	"mRNA_cyt" : {"base": 0, "input_nodes" : [["mRNA_nuc", 1]], "initial_state" : 0},
+	"PPN" : {"base": 0, "input_nodes" : [["pSTATn_pSTATn", 0]], "initial_state" : 0}
+    },
+    "changes": {
+	"states" : {
+	    "pSTATn_pSTATn" : 1, "mRNA_nuc" : 1, "PPN": 0, "mRNA_cyt" : 0
+	},
+	"bases" : { "pSTATn_pSTATn" : 0 }
+    }
+	
+}

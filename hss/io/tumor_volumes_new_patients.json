@@ -1,0 +1,77 @@
+{
+  "_notes": {
+    "source": "Tumor_Volumes.xlsx (Volume_and_Cell_Fate sheet averages)",
+    "units": {
+      "LAJDYMZBY4K262EJRR3V": "mm^3 (anomalously large — likely raw voxels; only ratio post/pre is used)",
+      "KOLQXCKDRWLYVCATQAMF": "mm^3, right kidney only (bilateral tumor; L-column excluded; post excludes one zero measurement)",
+      "M2Z4XCTXSR3NCW454E5E": "mm^3",
+      "XEON5ZV5NZIIKEAQHY4M": "mm^3 (same patient as XEON5Z in Pat_Mirna.json)"
+    },
+    "drug_regimen": "TODO: confirm per-patient regimen; defaulting to Actinomycin_Vincristine (SIOP standard pre-op for non-metastatic Wilms). Add Dox if patient had metastases."
+  },
+  "LAJDYMZBY4K262EJRR3V": {
+    "pre": 577960375.5,
+    "post": 449203356.25,
+    "change_frac": -0.222778281536361,
+    "n_pre": 4,
+    "n_post": 4,
+    "cell_death_pre_mean": 0.0744047619047,
+    "cell_death_pre_sd":   0.0212542512754,
+    "cell_death_post_mean": 0.14880952381,
+    "cell_death_post_sd":   0.0425085025507,
+    "ncg_pre_mean": 0.61011904761875,
+    "ncg_pre_sd":   0.113408088591,
+    "ncg_post_mean": 0.4613095238095,
+    "ncg_post_sd":   0.133994692673,
+    "drug": "Actinomycin_Dox_Vincristine"
+  },
+  "KOLQXCKDRWLYVCATQAMF": {
+    "pre": 15642.5,
+    "post": 2921.66666666667,
+    "change_frac": -0.813222524106334,
+    "n_pre": 4,
+    "n_post": 3,
+    "cell_death_pre_mean": 0.0773809523809,
+    "cell_death_pre_sd":   0.0178571428572,
+    "cell_death_post_mean": 0.142857142857,
+    "cell_death_post_sd":   0.0425085025507,
+    "ncg_pre_mean": 0.6071428571425,
+    "ncg_pre_sd":   0.113095238095,
+    "ncg_post_mean": 0.46428571428575,
+    "ncg_post_sd":   0.137163316926,
+    "drug": "Actinomycin_Dox_Vincristine"
+  },
+  "M2Z4XCTXSR3NCW454E5E": {
+    "pre": 591332.8,
+    "post": 857304.6,
+    "change_frac": 0.449783607471123,
+    "n_pre": 5,
+    "n_post": 5,
+    "cell_death_pre_mean": 0.110119047619,
+    "cell_death_pre_sd":   0.050067273337,
+    "cell_death_post_mean": 0.145833333333,
+    "cell_death_post_sd":   0.0448408308728,
+    "ncg_pre_mean": 0.61011904761875,
+    "ncg_pre_sd":   0.130681538096,
+    "ncg_post_mean": 0.46726190476175,
+    "ncg_post_sd":   0.137163316926,
+    "drug": "Actinomycin_Dox_Vincristine"
+  },
+  "XEON5ZV5NZIIKEAQHY4M": {
+    "_alias": "XEON5Z in Pat_Mirna.json",
+    "pre": 107327.666666667,
+    "post": 65764.25,
+    "change_frac": -0.387257246500594,
+    "n_pre": 3,
+    "n_post": 4,
+    "cell_death_pre_mean": 0.111607142857,
+    "cell_death_pre_sd":   0.0501335729997,
+    "cell_death_post_mean": 0.14880952381,
+    "cell_death_post_sd":   0.0425085025507,
+    "ncg_pre_mean": 0.61011904761875,
+    "ncg_pre_sd":   0.129447180041,
+    "ncg_post_mean": 0.4613095238095,
+    "ncg_post_sd":   0.133994692673,
+    "drug": "Actinomycin_Dox_Vincristine"
+  }
+}

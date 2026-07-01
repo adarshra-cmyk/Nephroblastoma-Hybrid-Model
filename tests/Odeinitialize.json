@@ -1,0 +1,10 @@
+{
+    "ErbB2": {
+        "Paramtype": "Initial Species Values", 
+        "value": 0.0, 
+        "substitute": {
+            "compartment": "endosomal membrane", 
+            "species": "ErbB2"
+        }
+    }
+}

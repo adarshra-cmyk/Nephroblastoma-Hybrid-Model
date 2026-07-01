@@ -1,0 +1,118 @@
+{
+    "SHP": [
+        "Shp", 
+        "cytoplasm"
+    ], 
+    "AKT": [
+        "AKT", 
+        "cytoplasm"
+    ], 
+    "CPP": [
+        "cPP", 
+        "endosomal membrane"
+    ], 
+    "EGF": [
+        "EGF", 
+        "medium"
+    ], 
+    "ERK": [
+        "ERK", 
+        "cytoplasm"
+    ], 
+    "RAF": [
+        "Raf", 
+        "cytoplasm"
+    ], 
+    "PASE9T": [
+        "Pase9t", 
+        "cytoplasm"
+    ], 
+    "ERBB4": [
+        "ErbB4", 
+        "endosomal membrane"
+    ], 
+    "PIP2": [
+        "PIP2", 
+        "cytoplasm"
+    ], 
+    "GAP": [
+        "GAP", 
+        "cytoplasm"
+    ], 
+    "SOS": [
+        "Sos", 
+        "cytoplasm"
+    ], 
+    "PASE2": [
+        "Pase2", 
+        "cytoplasm"
+    ], 
+    "PASE3": [
+        "Pase3", 
+        "cytoplasm"
+    ], 
+    "PASE1": [
+        "Pase1", 
+        "cytoplasm"
+    ], 
+    "PASE4": [
+        "Pase4", 
+        "cytoplasm"
+    ], 
+    "SHP2": [
+        "Shp2", 
+        "cytoplasm"
+    ], 
+    "ERBB2": [
+        "ErbB2", 
+        "endosomal membrane"
+    ], 
+    "ERBB3": [
+        "ErbB3", 
+        "endosomal membrane"
+    ], 
+    "ERBB1": [
+        "ErbB1", 
+        "plasma membrane"
+    ], 
+    "PIP3": [
+        "PIP3", 
+        "cytoplasm"
+    ], 
+    "PI3K": [
+        "PI3K", 
+        "cytoplasm"
+    ], 
+    "SHC": [
+        "Shc", 
+        "cytoplasm"
+    ], 
+    "HRG": [
+        "HRG", 
+        "medium"
+    ], 
+    "GAB1": [
+        "Gab1", 
+        "cytoplasm"
+    ], 
+    "MEK": [
+        "MEK", 
+        "cytoplasm"
+    ], 
+    "PDK1": [
+        "PDK1", 
+        "cytoplasm"
+    ], 
+    "PTEN": [
+        "PTEN", 
+        "cytoplasm"
+    ], 
+    "GRB2": [
+        "Grb2", 
+        "cytoplasm"
+    ], 
+    "INH": [
+        "Inh", 
+        "medium"
+    ]
+}

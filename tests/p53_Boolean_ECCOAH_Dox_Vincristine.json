@@ -1,0 +1,418 @@
+{
+    "cell_states": {
+        "G1toS": [
+            [
+                {
+                    "CDK2": 1, 
+                    "CASP9": 0
+                }, 
+                "cell_growth"
+            ], 
+            [
+                {
+                    "CDK2": 0, 
+                    "CASP9": 1
+                }, 
+                "cell_death"
+            ], 
+            [
+                {
+                    "CDK2": 1, 
+                    "CASP9": 1
+                }, 
+                "cell_growth"
+            ], 
+            [
+                {
+                    "CDK2": 0, 
+                    "CASP9": 0
+                }, 
+                "cell_senescence"
+            ]
+        ], 
+        "G2toM": [
+            [
+                {
+                    "BCL2": 0
+                }, 
+                "cell_death"
+            ], 
+            [
+                {
+                    "BCL2": 1
+                }, 
+                "cell_growth"
+            ]
+        ]
+    }, 
+    "indicator": {
+        "cell_death": {
+            "CDK2": 0, 
+            "CASP9": 1
+        }, 
+        "cell_growth": {
+            "CDK2": 1, 
+            "CASP9": 0
+        }
+    }, 
+    "changes": {
+        "states": {
+            "TP53": 1, 
+            "CDKN1A": 0, 
+            "ATM": 1, 
+            "BAX": 1, 
+            "CDK1": 1, 
+            "BCL2": 1
+        }, 
+        "bases": {}
+    }, 
+    "network": {
+        "CDK1": {
+            "input_nodes": [
+                [
+                    "None", 
+                    0
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 1
+        }, 
+        "TP53": {
+            "input_nodes": [
+                [
+                    "ATM", 
+                    2
+                ], 
+                [
+                    "MDM2", 
+                    -3
+                ], 
+                [
+                    "MDM4", 
+                    -2
+                ], 
+                [
+                    "ERK_PP", 
+                    1
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 1
+        }, 
+        "ERK_PP": {
+            "input_nodes": [
+                [
+                    "WIP1", 
+                    -2
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 0
+        }, 
+        "E2F1": {
+            "input_nodes": [
+                [
+                    "ARF", 
+                    -3
+                ], 
+                [
+                    "RB1", 
+                    -1
+                ], 
+                [
+                    "ATM", 
+                    1
+                ], 
+                [
+                    "MDM2", 
+                    1
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 1
+        }, 
+        "CCNG1": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    2
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 1
+        }, 
+        "WIP1": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    2
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 0
+        }, 
+        "CDKN1A": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    3
+                ], 
+                [
+                    "AKT_P", 
+                    -1
+                ], 
+                [
+                    "MDM2", 
+                    -1
+                ], 
+                [
+                    "Raf_P", 
+                    -1
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 0
+        }, 
+        "ATM": {
+            "input_nodes": [
+                [
+                    "E2F1", 
+                    1
+                ], 
+                [
+                    "CCNG1", 
+                    -2
+                ], 
+                [
+                    "WIP1", 
+                    -2
+                ]
+            ], 
+            "base": 2, 
+            "initial_state": 1
+        }, 
+        "RB1": {
+            "input_nodes": [
+                [
+                    "ATM", 
+                    2
+                ], 
+                [
+                    "CDK2", 
+                    -1
+                ], 
+                [
+                    "MDM2", 
+                    -1
+                ], 
+                [
+                    "CASP9", 
+                    -3
+                ]
+            ], 
+            "base": 0, 
+            "initial_state": 0
+        }, 
+        "CASP9": {
+            "input_nodes": [
+                [
+                    "AKT_P", 
+                    -1
+                ], 
+                [
+                    "BCL2", 
+                    -1
+                ], 
+                [
+                    "CDKN1A", 
+                    -1
+                ], 
+                [
+                    "BAX", 
+                    3
+                ], 
+                [
+                    "E2F1", 
+                    1
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 0
+        }, 
+        "PTEN": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    2
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 0
+        }, 
+        "CDK2": {
+            "input_nodes": [
+                [
+                    "E2F1", 
+                    1
+                ], 
+                [
+                    "CDKN1A", 
+                    -3
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 1
+        }, 
+        "BAX": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    2
+                ], 
+                [
+                    "BCL2", 
+                    -1
+                ]
+            ], 
+            "base": -1, 
+            "initial_state": 1
+        }, 
+        "ARF": {
+            "input_nodes": [
+                [
+                    "TP53", 
+                    -2
+                ], 
+                [
+                    "WIP1", 
+                    -1
+                ], 
+                [
+                    "E2F1", 
+                    1
+                ], 
+                [
+                    "ERK_PP", 
+                    1
+                ]
+            ], 
+            "base": 0, 
+            "initial_state": 0
+        }, 
+        "Raf_P": {
+            "input_nodes": [
+                [
+                    "AKT_P", 
+                    -1
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 0
+        }, 
+        "AKT_P": {
+            "input_nodes": [
+                [
+                    "PTEN", 
+                    -2
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 0
+        }, 
+        "MDM2": {
+            "input_nodes": [
+                [
+                    "ARF", 
+                    -3
+                ], 
+                [
+                    "ATM", 
+                    -2
+                ], 
+                [
+                    "CDK2", 
+                    -2
+                ], 
+                [
+                    "RB1", 
+                    -2
+                ], 
+                [
+                    "AKT_P", 
+                    1
+                ], 
+                [
+                    "CCNG1", 
+                    1
+                ], 
+                [
+                    "MDM4", 
+                    2
+                ], 
+                [
+                    "TP53", 
+                    1
+                ], 
+                [
+                    "WIP1", 
+                    1
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 1
+        }, 
+        "MDM4": {
+            "input_nodes": [
+                [
+                    "ATM", 
+                    -2
+                ], 
+                [
+                    "MDM2", 
+                    -4
+                ], 
+                [
+                    "ARF", 
+                    -3
+                ], 
+                [
+                    "AKT_P", 
+                    2
+                ], 
+                [
+                    "WIP1", 
+                    1
+                ]
+            ], 
+            "base": 1, 
+            "initial_state": 0
+        }, 
+        "BCL2": {
+            "input_nodes": [
+                [
+                    "AKT_P", 
+                    2
+                ], 
+                [
+                    "TP53", 
+                    -2
+                ], 
+                [
+                    "CASP9", 
+                    -1
+                ]
+            ], 
+            "base": 0, 
+            "initial_state": 1
+        }
+    }, 
+    "indicator_nodes": {
+        "G1toS": [
+            "CDK2", 
+            "CASP9"
+        ], 
+        "G2toM": [
+            "BCL2"
+        ]
+    }
+}

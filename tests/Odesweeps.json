@@ -1,0 +1,9 @@
+{
+    "EGF" : 
+    {
+	"Paramtype" : "Initial Species Values",
+	"substitute" : {"compartment" : "medium","species" :
+			"EGF"},
+	"value" : [1e-9, 1e-7]
+    }
+}

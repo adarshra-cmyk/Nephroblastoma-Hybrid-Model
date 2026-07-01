@@ -1,0 +1,18 @@
+{
+    "network" : {
+	"A" : { "base" : 0, "input_nodes" : [["None", 0]], "initial_state" : 1 },
+	"B" : { "base" : 0, "input_nodes" : [["A", 1],["C", 2]], "initial_state" : 0 },
+	"C" : { "base" : 0, "input_nodes" : [["A", 1],["D", -1]], "initial_state" : 0 },
+	"D" : { "base" : 0, "input_nodes" : [["B", 1],["C", 1]], "initial_state" : 1 }
+    },
+    "changes" : {
+	"states" : {
+	    "A" : 1, "B" : 0
+	},
+	"bases" : { "A" : 1 }
+    },
+    "indicator" : {
+	"cell_growth" : { "A" : 1, "C" : 1 },
+	"cell_death" : { "A" : 0, "B" : 0 }
+    }
+}

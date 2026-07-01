@@ -1,0 +1,6 @@
+{
+    "Dox":{"threshold": 0.1, "constants":[0.1, 2], "influenced_nodes": ["ATM","TP53","BAX","BCL2"], "status":"off"},
+    "Vincristine":{"threshold": 0.1, "time_step":5, "influenced_nodes": ["CDK1"], "status":"off"},
+    "Actinomycin":{"threshold": 0.2, "constants":[0.05, 1], "influenced_nodes": ["ATM","TP53","BAX","BCL2"], "status":"off"}
+
+}

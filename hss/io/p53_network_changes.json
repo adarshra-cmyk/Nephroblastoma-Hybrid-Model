@@ -1,0 +1,6 @@
+{
+    "states" : {
+	"CDK1": 1, "TP53": 1, "ERK_PP": 0, "E2F1": 1, "PTEN": 0, "WIP1": 1, "CDKN1A": 0, "ATM": 1, "BAX": 0, "CASP9": 0, "CCNG1": 1, "CDK2": 1, "RB1": 0, "ARF": 0, "Raf_P": 1, "MDM2": 0, "BCL2": 0
+    },
+    "bases" : {"ATM" : 2}
+}

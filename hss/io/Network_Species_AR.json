@@ -1,0 +1,42 @@
+{
+    "C": [
+        "C", 
+        "cytoplasm"
+    ], 
+    "TP53": [
+        "TP53", 
+        "cytoplasm"
+    ], 
+    "TESTOSTERONE": [
+        "Testosterone", 
+        "cytoplasm"
+    ], 
+    "REDUCTASE": [
+        "Reductase", 
+        "cytoplasm"
+    ], 
+    "PSA": [
+        "PSA", 
+        "cytoplasm"
+    ], 
+    "DOSE": [
+        "Dose", 
+        "cytoplasm"
+    ], 
+    "P": [
+        "P", 
+        "cytoplasm"
+    ], 
+    "ACT": [
+        "ACT", 
+        "cytoplasm"
+    ], 
+    "DHT": [
+        "DHT", 
+        "cytoplasm"
+    ], 
+    "D": [
+        "D", 
+        "cytoplasm"
+    ]
+}

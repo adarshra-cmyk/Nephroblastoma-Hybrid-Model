@@ -1,0 +1,8 @@
+{
+  "mailtype" : "END,FAIL",
+  "mailuser" : "adarshra@seas.upenn.edu",
+  "nodes" : 1,
+  "ntasks" : 1,
+  "cpuspertask" : 1,
+  "time" : "12:00:00"
+}

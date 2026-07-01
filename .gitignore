@@ -1,5 +1,21 @@
-# Generated outputs and raw data
-hss/interface/
+# Generated simulation outputs
+hss/interface/Arguments_lifer_*
+hss/interface/Jobfile_lifer_*
+hss/interface/Jobfile_nomem_*
+hss/interface/Run_Info_lifer_*
+hss/interface/Run_Info_nomem_*
+hss/interface/Cell_Fates_*
+hss/interface/p53_Boolean_*
+hss/interface/*.err
+hss/interface/*.out
+hss/interface/*.time
+hss/interface/*.status
+hss/interface/*.pickle
+hss/interface/*.dill
+hss/interface/lifer_*
+# Large public database files (download from miRTarBase separately)
+hss/io/hsa_MTI.csv
+# Raw mRNA expression data (download from NCI-TARGET separately)
 hss/io/mrna_data/
 *.pickle
 *.dill
@@ -9,12 +25,31 @@ hss/io/mrna_data/
 *.err
 *.log
 
-# Data files (not committed)
+# Data files (excluded by default; input files re-included below)
 *.json
 *.csv
 *.cps
 *.xml
 *.bn
+
+# Model and input files to track
+!hss/io/p53_network.json
+!hss/io/p53_network_changes.json
+!hss/io/Network_Species.json
+!hss/io/Network_Species_All.json
+!hss/io/Network_Species_AR.json
+!hss/io/Network_Species_Temp.json
+!hss/io/Network_Species_Temp_Values.json
+!hss/io/Species_Dict.json
+!hss/io/Chemo_Drugs.json
+!hss/io/tumor_volumes_new_patients.json
+!hss/io/miRNA_Targets_*.json
+!hss/io/mirna_data/*.csv
+!hss/interface/Slurm_Setup.json
+!hss/interface/Pbs_Setup.json
+!hss/interface/Sweepfile_lifer_*.json
+!tests/*.json
+!tests/*.cps
 
 # Figures and media
 *.png
