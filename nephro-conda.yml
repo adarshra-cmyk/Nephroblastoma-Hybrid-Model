@@ -1,0 +1,38 @@
+name: nephro
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - backports=1.0
+  - backports_abc=0.5
+  - cycler=0.10.0
+  - ncurses=6.3
+  - networkx=2.2
+  - numpy=1.16.6
+  - pandas=0.24.2
+  - pathlib=1.0.1
+  - pyparsing=2.4.7
+  - python=2.7.18
+  - subprocess32=3.5.4
+  - pip:
+    - asn1crypto==1.3.0
+    - backports-functools-lru-cache==1.6.1
+    - booleannet==1.2.8
+    - brewer2mpl==1.4.1
+    - cffi==1.14.0
+    - chardet==3.0.4
+    - click==7.1.2
+    - cryptography==2.8
+    - decorator==4.3.2
+    - enum34==1.1.6
+    - ipaddress==1.0.23
+    - matplotlib==2.2.5
+    - pip==20.3.4
+    - pycparser==2.21
+    - python-dateutil==2.8.1
+    - scipy==1.2.3
+    - setuptools==44.1.1
+    - singledispatch==3.4.0.3
+    - six==1.15.0
+

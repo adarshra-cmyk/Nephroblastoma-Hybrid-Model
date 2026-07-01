@@ -1,0 +1,62 @@
+# Generated outputs and raw data
+hss/interface/
+hss/io/mrna_data/
+*.pickle
+*.dill
+*.time
+*.status
+*.out
+*.err
+*.log
+
+# Data files (not committed)
+*.json
+*.csv
+*.cps
+*.xml
+*.bn
+
+# Figures and media
+*.png
+*.pdf
+*.eps
+*.pptx
+*.b64
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Docs build
+site/
+*.html
+*.css
+
+# Editors / OS
+*.swp
+*.*~
+*~
+\#*\#
+.\#*
+*.DS_Store
+.directory
+
+# Scratch
+temp_*/
+tmp/
+test_write.txt
+make_slide.py
+make_slide2.py
+makedocs.sh
+mkdocs.yml
+batcher.py
+Shell_Out_*
+temp_*.py
