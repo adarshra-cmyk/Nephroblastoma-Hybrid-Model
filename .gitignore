@@ -32,7 +32,7 @@ hss/io/mrna_data/
 *.xml
 *.bn
 
-# Model and input files to track
+# Model and input files to track (true inputs only, not pipeline-generated)
 !hss/io/p53_network.json
 !hss/io/p53_network_changes.json
 !hss/io/Network_Species.json
@@ -43,12 +43,16 @@ hss/io/mrna_data/
 !hss/io/Species_Dict.json
 !hss/io/Chemo_Drugs.json
 !hss/io/tumor_volumes_new_patients.json
-!hss/io/miRNA_Targets_*.json
 !hss/io/mirna_data/*.csv
 !hss/interface/Slurm_Setup.json
 !hss/interface/Pbs_Setup.json
-!hss/interface/Sweepfile_lifer_*.json
-!tests/*.json
+!tests/p53_Boolean.json
+!tests/ErbB4_Boolean.json
+!tests/Interfaces_ErbB4_p53.json
+!tests/Odesweeps.json
+!tests/Four_Components.json
+!tests/Odeinitialize.json
+!tests/Odeparameter.json
 !tests/*.cps
 
 # Figures and media
