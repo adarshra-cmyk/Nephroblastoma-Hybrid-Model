@@ -44,6 +44,7 @@ hss/io/mrna_data/
 !hss/io/Chemo_Drugs.json
 !hss/io/tumor_volumes_new_patients.json
 !hss/io/mirna_data/*.csv
+!patient_data/mirna/*.csv
 !hss/interface/Slurm_Setup.json
 !hss/interface/Pbs_Setup.json
 !tests/p53_Boolean.json
