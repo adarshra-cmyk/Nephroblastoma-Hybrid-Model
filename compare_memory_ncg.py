@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Compare Net Cell Growth (NCG) with memory ON vs OFF for Control and one
 treatment patient across all available drug combinations.

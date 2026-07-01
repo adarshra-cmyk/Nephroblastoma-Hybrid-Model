@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 Generate cell fate figures for the nephroblastoma hybrid model.
 Run from the project root directory after loading anaconda3:
