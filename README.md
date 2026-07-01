@@ -84,5 +84,3 @@ Produces:
 ## Patients
 
 Five original patients (`4L3YB6`, `5XIHQG`, `6Z34IQ`, `ECCOAH`, and a drug-free `Control`) plus four additional patients with pre/post tumor volume data for Figure 3 validation.
-
-Patient IDs are pseudonymized.
